@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Your Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff; /* Light blue background */
+        }
+        header {
+            background-color: #1e90ff; /* DodgerBlue header */
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        #about {
+            background: #e6f7ff; /* Light blue background for About section */
+            padding: 40px;
+            margin-top: 20px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+        }
+        #about img {
+            width: 200px; /* Increased width */
+            height: 200px; /* Increased height */
+            border-radius: 50%;
+            border: 4px solid #1e90ff; /* Blue border around profile picture */
+        }
+        #about h2 {
+            color: #333;
+            margin-top: 15px;
+        }
+        #about p {
+            font-size: 18px;
+            color: #555;
+        }
+        #education, #skills, #projects, #contact {
+            background: #ffffff;
+            padding: 30px;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+        }
+        h3 {
+            margin-bottom: 20px;
+            color: #1e90ff; /* Blue for section headers */
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            background-color: #e0ffff; /* Light cyan background for list items */
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            color: #333;
+        }
+        ul li strong {
+            color: #ff6347; /* Tomato color for strong text in list items */
+        }
+        #contact a {
+            color: #1e90ff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        #contact a:hover {
+            color: #ff6347; /* Tomato color for hover effect */
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>My Portfolio</h1>
+    </header>
+
+    <section id="about" class="container">
+        <img src="https://www.shutterstock.com/image-vector/default-avatar-profile-icon-transparent-600nw-2463868847.jpg" alt="Profile Photo"> <!-- Updated profile image -->
+        <h2>About Me</h2>
+        <p>Hi, I'm a 3rd-year IT student at Seshadri Rao Gudlavalleru Engineering College (SRGEC) with a CGPA of 9.23. I am passionate about data science, machine learning, and web development. I have completed a SmartBridge internship and am currently enrolled in the NPTEL course on "Introduction to IoT." Additionally, I am working on a project focused on food waste management in Gudivada, collaborating with social service organizations to make an impact.</p>
+    </section>
+
+    <section id="education" class="container">
+        <h3>Education & Internships</h3>
+        <ul>
+            <li><strong>Seshadri Rao Gudlavalleru Engineering College (SRGEC)</strong><br>3rd Year IT, CGPA: 9.23</li>
+            <li><strong>CodSoft Internship</strong><br>Data Science Internship - Completed</li>
+            <li><strong>SmartBridge Internship</strong><br>Machine Learning Internship - Completed</li>
+            <li><strong>NPTEL Course</strong><br>Introduction to IoT - Enrolled</li>
+            <li><strong>Great Learning</strong><br>Python for Beginners Certification</li>
+        </ul>
+    </section>
+
+    <section id="skills" class="container">
+        <h3>Skills & Certifications</h3>
+        <ul>
+            <li>Data Science</li>
+            <li>Python Programming</li>
+            <li>Machine Learning</li>
+            <li>Web Development (HTML, CSS, JavaScript)</li>
+            <li>NumPy, Matplotlib, Seaborn</li>
+            <li>Problem Solving Basics - HackerRank Certification</li>
+            <li>Community Service Projects</li>
+        </ul>
+    </section>
+
+    <section id="projects" class="container">
+        <h3>Projects</h3>
+        <ul>
+            <li><strong>Food Waste Management Project</strong><br>
+                - Working on a community service project aimed at reducing food waste in Gudivada.<br>
+                - Designed an efficient waste collection and distribution system.<br>
+                - Collaborated with social service organizations to ensure food is directed to those in need.<br>
+                - Leveraging technology and data analytics to optimize the process and track impact.
+            </li>
+        </ul>
+    </section>
+
+    <section id="contact" class="container">
+        <h3>Contact Me</h3>
+        <ul>
+            <li>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/your-profile" target="_blank">linkedin.com/in/your-profile</a></li>
+            <li>GitHub: <a href="https://github.com/your-github" target="_blank">github.com/your-github</a></li>
+        </ul>
+    </section>
+
+</body>
+</html>
